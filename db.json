@@ -1,0 +1,146 @@
+{
+  "admin_user": [
+    {
+      "usuario": "@",
+      "password": "123456"
+    }
+  ],
+  "productos": [
+    {
+      "seccion": "Legos",
+      "nombre": "Star Wars",
+      "precio": 80,
+      "image": "./img/articulos/Lego/lego1.jpeg",
+      "descripcion": "legos de stars wars de colecion de exelente calidad y duracion para el uso de niños y adultos.",
+      "id": "legos1"
+    },
+    {
+      "seccion": "Legos",
+      "nombre": "bb9e",
+      "precio": 80,
+      "image": "./img/articulos/Lego/lego2.jpg",
+      "descripcion": "legos de stars wars de colecion de exelente calidad y duracion para el uso de niños y adultos.",
+      "id": "legos2"
+    },
+    {
+      "seccion": "Legos",
+      "nombre": "Stormtrooper balck y Red",
+      "precio": 50,
+      "image": "./img/articulos/Lego/lego3.jpg",
+      "descripcion": "legos de stars wars de colecion de exelente calidad y duracion para el uso de niños y adultos.",
+      "id": "legos3"
+    },
+    {
+      "seccion": "Legos",
+      "nombre": "Star Wars",
+      "precio": 30,
+      "image": "./img/articulos/Lego/lego4.jpeg",
+      "descripcion": "legos de stars wars de colecion de exelente calidad y duracion para el uso de niños y adultos.",
+      "id": "legos4"
+    },
+    {
+      "seccion": "Legos",
+      "nombre": "Stormtrooper",
+      "precio": 100,
+      "image": "./img/articulos/Lego/lego5.jpeg",
+      "descripcion": "legos de stars wars de colecion de exelente calidad y duracion para el uso de niños y adultos.",
+      "id": "legos5"
+    },
+    {
+      "seccion": "Legos",
+      "nombre": "bb8",
+      "precio": 120,
+      "image": "./img/articulos/Lego/lego6.jpg",
+      "descripcion": "legos de stars wars de colecion de exelente calidad y duracion para el uso de niños y adultos.",
+      "id": "legos6"
+    },
+    {
+      "seccion": "Funko_Pop",
+      "nombre": "Stormtrooper Pop",
+      "precio": 30,
+      "image": "./img/articulos/Funko_Pop/pop1.jpg",
+      "descripcion": "Figuras de coleccion de muy alta calidad",
+      "id": "funkopop1"
+    },
+    {
+      "seccion": "Funko_Pop",
+      "nombre": "3 Stormtrooper Pop",
+      "precio": 80,
+      "image": "./img/articulos/Funko_Pop/pop2.jpg",
+      "descripcion": "Figuras de coleccion de muy alta calidad",
+      "id": "funkopop2"
+    },
+    {
+      "seccion": "Funko_Pop",
+      "nombre": "K-2SO",
+      "precio": 30,
+      "image": "./img/articulos/Funko_Pop/pop4.jpg",
+      "descripcion": "Figuras de coleccion de muy alta calidad",
+      "id": "funkopop4"
+    },
+    {
+      "seccion": "Funko_Pop",
+      "nombre": "Stormtrooper Pop",
+      "precio": 30,
+      "image": "./img/articulos/Funko_Pop/pop5.jpg",
+      "descripcion": "Figuras de coleccion de muy alta calidad",
+      "id": "funkopop5"
+    },
+    {
+      "seccion": "Funko_Pop",
+      "nombre": "Kylo Ren Pop",
+      "precio": 30,
+      "image": "./img/articulos/Funko_Pop/pop6.jpg",
+      "descripcion": "Figuras de coleccion de muy alta calidad",
+      "id": "funkopop6"
+    },
+    {
+      "seccion": "Tazas",
+      "nombre": "Baby Yoda",
+      "precio": 15,
+      "image": "./img/articulos/Tazas/taza1.jpg",
+      "descripcion": "Tazas de muy buena calidad material ceramica",
+      "id": "tazas1"
+    },
+    {
+      "seccion": "Tazas",
+      "nombre": "Taza Death Star",
+      "precio": 60,
+      "image": "./img/articulos/Tazas/taza2.jpg",
+      "descripcion": "Tazas de muy buena calidad material ceramica",
+      "id": "tazas2"
+    },
+    {
+      "seccion": "Tazas",
+      "nombre": "Taza Han Solo y Chubaca",
+      "precio": 15,
+      "image": "./img/articulos/Tazas/taza3.jpg",
+      "descripcion": "Tazas de muy buena calidad material ceramica",
+      "id": "tazas3"
+    },
+    {
+      "seccion": "Tazas",
+      "nombre": "Taza Baby Yoda",
+      "precio": 25,
+      "image": "./img/articulos/Tazas/taza4.jpg",
+      "descripcion": "Tazas de muy buena calidad material ceramica",
+      "id": "tazas4"
+    },
+    {
+      "seccion": "Tazas",
+      "nombre": "Taza Star Wars edition",
+      "precio": 30,
+      "image": "./img/articulos/Tazas/taza5.jpg",
+      "descripcion": "Tazas de muy buena calidad material ceramica",
+      "id": "tazas5"
+    },
+    {
+      "seccion": "Tazas",
+      "nombre": "Taza Boba Fet",
+      "precio": 15,
+      "image": "./img/articulos/Tazas/taza6.jpg",
+      "descripcion": "Tazas de muy buena calidad material ceramica",
+      "id": "tazas6"
+    }
+  ]
+}

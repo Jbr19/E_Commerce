@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/extras_html/reset.css">
+    <link rel="stylesheet" href="./css/extras_html/colores_root.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/productos/productos.css">
+    <link rel="stylesheet" href="./css/productos/productos_admin.css">
+    <link rel="stylesheet" href="./css/contacto/contacto.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
+
+    <link rel="shortcut icon" href="./img/banner_logos_iconos/icon star wars.jpg">
+    <title>Star Wars Store - AdminPage</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_container" data-container-header>
+            <div class="header_elements">
+                <a class="header_link-home" href="./index.html"><img class="header_logo" src="./img/banner_logos_iconos/Star warsLOGO.svg" alt="Logo Star wars store"></a>
+                <div class="header_search">
+                    <input class="header_search-input" type="text" placeholder="¿Qué deseas buscar?"
+                        id="Buscar_Productos">
+                    <button class="header_search-button"><img class="header_search-icon"
+                            src="./img/banner_logos_iconos/Search.svg" alt="Search"></button>
+                </div>
+            </div>
+            <a class="header_link-login" href="./index.html"><button class="Header_Button-login" data-btn-login>Vista Cliente</button></a>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="productos">
+
+            <div class="productos__container">
+                
+                <div class="productos__header">
+                    <h2 class="productos__titulo">Todos los productos</h2>
+                    <div class="productos__more">
+                        <a href="./html/agregar_productos.html"><button class="productos__add__link">Agregar Producto</button></a>                        
+                    </div>
+                </div>
+
+                <div class="productos__lista" data-container-productos></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <section class="contacto_container">
+
+            <div class="contacto_image_container">
+                <img class="contacto_image" src="./img/banner_logos_iconos/Star warsLOGO.svg" alt="Logo Star wars store">
+            </div>
+
+            <div class="contacto_menu">
+                <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Quienes somos</p></a>
+                <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Política de privacidad</p></a>
+                <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Programa de fidelidad</p></a>
+                <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Nuestras tiendas</p></a>
+                <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Quiero ser franquiciado</p></a>
+                <a class="contacto_menu_link" href="#"><p class="contacto_menu_texto">Anuncie aquí</p></a>                        
+            </div>
+
+            <form class="contacto_mensaje_container" data-form-contacto>
+                <h2 class="contacto_mensaje_titulo">Hable con nosotros</h2>
+                <div class="contacto_input_container">
+                    <label class="contacto_info" for="Nombre"  >Nombre</label>
+                    <input class="contacto_input" type="text" id="Nombre" data-mensaje-nombre required maxlength="40">
+                </div>
+
+                <div class="contacto_input_container">
+                    <label class="contacto_info" for="Mensaje" >Escriba su mensaje</label>
+                    <textarea class="contacto_input input-mensaje" name="Mensaje" id="Mensaje" 
+                    data-mensaje-mensaje required maxlength="120"></textarea>
+                </div>
+
+                <button type="submit" class="contacto_boton_enviar" data-mensaje-btn>Enviar Mensaje</button>
+            </form>
+
+        </section>
+
+        <div class="footer__dev__info">
+            <p class="footer_info">
+                <a>Hecho por Jose E Baez de Puerto Rico &copy Copyright 2022</a>
+                <a href="mailto:jose.enrique.baez"><img border="0" alt="jose.enrique.baez@gmail.com" src="/img/banner_logos_iconos/gmail logo.png" width="40" height="40"></a>
+                <a href="https://github.com/Jbr19"><img border="0" alt="GitHub" src="/img/banner_logos_iconos/github logo.png" width="40" height="40"></a>
+            </p>
+        </div>
+        
+    </footer>
+
+    <script src="./js/buscar.js"></script>
+    <script type="module" src="./js/adminPage.js"></script>
+    <script src="./js/validacion__mensaje.js"></script>
+
+</body>
+
+</html>
